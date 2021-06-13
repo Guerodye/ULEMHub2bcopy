@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #232A31;
+    color: #fefbff;
+    height: 38px;
+    font-family: "YahooSans VF", YahooSans, "Helvetica Neue", Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 39px;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header1 img:nth-child(1){
+    height: 12px;
+    margin-top:12px;
+    margin-right: 10px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.yahoo-image{
+    width:50px;
+    height: 30px;
+}
+.search{
+    height: 45px;
+    width: 560px;
+    border-radius: 4px;
+    border-color: #188FFF;
+}
+.button1{
+    background-color: #188FFF;
+    border-radius: 4px;
+    border: #188FFF;
+    width: 82px;
+    height: 45px;
+    margin-left: -8px;
+}
+.button2{
+    border-radius: 50px;
+    font-family:"YahooSans VF", YahooSans, "Helvetica Neue", Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-color:#6001d2;
+    line-height: 18px;
+    color: #6001D2;
+    width: 70px;
+    height: 28px;
+    margin-left: 20px;
+}
+.header2 img:nth-child(1){
+    width: 200px;
+    height:32px;
+}
+.header2 div:nth-child(4) img{
+    width: 20px;
+    height:20px;
+    margin-right: -40px;
+}
+.header2 div:nth-child(5) p{
+    margin-left: -40px;
+}
+.header3{
+display: flex;
+justify-content: space-between;
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 40px;
+    padding-right: 207px;
+}
+#update-section{
+    display: flex;
+    margin-top: 30px;
+}
+#update-section div img:nth-child(1){
+    margin-left: 22px;
+}
+#update-section div h1:nth-child(2){
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #232A31;
+    margin-left: 22px;
+}
+#update-section div li{
+    margin-left: 22px;
+}
+
+}
+#update-section div p{
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5D656C;
+}
+.image2 img:nth-child(1){
+    border-radius: 12px;
+    margin-left: 42px;
+    margin-right:20px;
+}
+

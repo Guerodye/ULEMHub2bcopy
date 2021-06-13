@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width:110%;
+}
+
+:root {
+    --bor: 1px solid grey;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.header1 {
+    display: flex;
+    height: 20px;
+    color: white;
+    background-color: #201152;
+    justify-content: space-between;
+}
+.header1 .left-side {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.header1 .right-side {
+    display: flex;
+    justify-content: space-between;
+}
+.header2 {
+    display: flex;
+    height: 70px;
+    color: white;
+    padding: 0 150px;
+    background-color: #1d2228;
+    justify-content: space-between;
+}
+.header2 .left-side {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2 input[type="search"] {
+    width: 600px;
+    height: 45px;
+    margin-left: 55px;
+}
+.header2 input[type="submit"] {
+    width: 100px;
+    height: 45px;
+    background-color: #0081f2;
+}
+
+.header2 .right-side {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+/* mail icon */
+.header2 .right-side > img:nth-child(1) {
+    width: 20px;
+    height: 20px;
+}
+/* envelope */
+.header2 .right-side > img:nth-child(3) {
+    width: 10px;
+    height: 10px;
+}
+
+.header3 {
+    display: flex;
+    height: 42px;
+    color: white;
+    background-color: #232a31;
+    padding: 0 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header3 > div:nth-child(2) img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.header3 .left-side {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.header3 .right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header4 {
+    display: flex;
+    position: relative;
+}
+.header4 #trend {
+    width: 148px;
+    height: 100px;
+}
+
+/* Every image in header4 class */
+.header4 img {
+    width: 20px;
+    height: 20px;
+
+}
+
+/* Containers for teams */
+.header4 div:nth-child(1) {
+
+}
+
+.header4 div:nth-child(3),
+.header4 div:nth-child(5),
+.header4 div:nth-child(6)
+{
+    width: 179px;
+    height: 100px;
+    border:var(--bor);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header4 div:nth-child(8),
+.header4 div:nth-child(9),
+.header4 div:nth-child(10) {
+    width: 179px;
+    height: 100px;
+    border: var(--bor);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* the last group is only half as wide */
+.header4 div:nth-child(11) {
+    width: 91px;
+    height: 100px;
+    border:var(--bor);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* the titles of the grouped teams */
+.header4 div:nth-child(2),
+.header4 div:nth-child(4),
+.header4 div:nth-child(7){
+    width: 53px;
+    height: 100px;
+    border:var(--bor);
+    position: relative;
+}
+
+.header4 div > p:nth-child(1) {
+
+}
+
+.header4  div > p:nth-child(2) {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+/* all top team images */
+.header4 div>img:nth-child(3) {
+    position: absolute;
+    left: 5px;
+    top: 45px;
+}
+/* all bottom team images */
+.header4 div>img:nth-child(4) {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
+/* all top team scores */
+.header4 div > p:nth-child(5) {
+    position: absolute;
+    top: 45px;
+    left: 55px;
+    padding-left: 35px;
+}
+/* all bottom team scores */
+.header4 div > p:nth-child(6) {
+    position: absolute;
+    top: 75px;
+    left: 55px;
+    padding-left: 35px;
+}
+/* all section titles */
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title > p{
+    justify-content: center;
+
+}
+
+.less-than, .greater-than {
+    display:flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    border: var(--bor);
+    justify-content: center;
+    position: relative;
+}
+.less-than {
+    position: absolute;
+    top: 50px;
+    left: 1473px;
+}
+
+.ad-box{
+    display: flex;
+    position: relative;
+    margin: 3px 150px;
+    background-color: #f5f8fa;
+}
+.ad-box > img {
+    width: 454px;
+    height: 239px;
+    margin: 15px 0;
+    padding: 5px;
+    left: 5px;
+}
+.ad-box > div {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    padding-left: 50px;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.ad-box > div p:nth-child(2) {
+    position: absolute;
+    top: 70px;
+}
+
+.ad-box > div input:nth-child(3) {
+    position: absolute;
+    top: 120px;
+    background-color: #016efa;
+    height: 45px;
+    width: 140px;
+    color: white;
+    border-radius: 30px;
+}
+
+.content-box{
+    display: flex;
+    position: relative;
+}
+.content-box > img:nth-child(1) {
+    width: 670px;
+    height: 100%;
+    margin-left: 150px;
+}
+.content-box > img:nth-child(2) {
+    width: 207px;
+    height: 116px;
+    position: absolute;
+    top: 0;
+    left: 831px;
+}
+.content-box > img:nth-child(3) {
+    width: 207px;
+    height: 116px;
+    position: absolute;
+    top: 117px;
+    left: 831px;
+}
+.content-box > img:nth-child(4) {
+    width: 207px;
+    height: 116px;
+    position: absolute;
+    top: 235px;
+    left: 831px;
+}
+
+.content-box > .headline-box {
+    position: absolute;
+    left: 1050px;
+}
+
+.content-box div:nth-child(5) p>img {
+    width: 20px;
+    height: 20px;
+}
+
+.headline-box{
+    margin-left: 20px;
+    font-family: "Yahoo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+
+}
+.headline-box img {
+    position: relative;
+    top: 50px;
+    width: 20px;
+    height: 20px;
+}
+.headline-box p {
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+}
+
+
